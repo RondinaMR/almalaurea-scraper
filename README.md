@@ -23,40 +23,41 @@ To use the scraper, follow these steps:
 ### Main functions
 
 `disaggregation_all(anni, filename=None, ateneo="tutti")`
-/**
+
  * Performs disaggregation for all years.
- *
+
  * @param {Array} anni - An array of years to perform disaggregation for.
  * @param {string} [filename] - Optional filename to save the disaggregated data.
  * @param {string} [ateneo="tutti"] - Optional parameter to specify the university. Defaults to "tutti" (all universities).
- */
+
 
 `disaggregazione_genere(anni, filename=None, ateneo="tutti")`
-/**
- * Performs disaggregation for genders.
- *
+
+Performs disaggregation for genders.
+
  * @param {Array} anni - An array of years to perform disaggregation for.
  * @param {string} [filename] - Optional filename to save the disaggregated data.
  * @param {string} [ateneo="tutti"] - Optional parameter to specify the university. Defaults to "tutti" (all universities).
- */
 
 `disaggregazione_dipartimenti(anni, filename=None, ateneo='tutti')`
-/**
- * Performs disaggregation for departments. NOTE: The department list is based on the ones for Politecnico di Torino. Modify the list based on the departments of the university of your interest.
- *
- * @param {Array} anni - An array of years to perform disaggregation for.
- * @param {string} [filename] - Optional filename to save the disaggregated data.
- * @param {string} [ateneo="tutti"] - Optional parameter to specify the university. Defaults to "tutti" (all universities).
- */
+Performs disaggregation for departments.
+
+> [!WARNING]
+> The department list is based on the ones for Politecnico di Torino. Modify the list based on the departments of the university of your interest.
+
+* @param {Array} anni - An array of years to perform disaggregation for.
+* @param {string} [filename] - Optional filename to save the disaggregated data.
+* @param {string} [ateneo="tutti"] - Optional parameter to specify the university. Defaults to "tutti" (all universities).
+
 
  `disaggregazione_lavoro(anni, filename=None, ateneo='tutti')`
-/**
+
  * Performs disaggregation for work conditions.
- *
+
  * @param {Array} anni - An array of years to perform disaggregation for.
  * @param {string} [filename] - Optional filename to save the disaggregated data.
  * @param {string} [ateneo="tutti"] - Optional parameter to specify the university. Defaults to "tutti" (all universities).
- */
+
 
 ## Contributing
 
