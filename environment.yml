@@ -1,0 +1,10 @@
+name: almalaurea-scraper
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas
+  - conda-forge::beautifulsoup4
+  - conda-forge::requests
+  - conda-forge::tqdm
+  - conda-forge::openpyxl
