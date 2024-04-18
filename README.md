@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a scraper for the almalaurea website. It allows you to extract data from the website and store it in a structured format.
+This project is a scraper for the italian almalaurea website. It allows you to extract data from the website and store it in a structured format.
 
 ## Installation
 
